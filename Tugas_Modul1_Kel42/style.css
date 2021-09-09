@@ -1,0 +1,92 @@
+* {
+	margin: 0; padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+#main {
+	width: 680px;
+	margin: auto;
+	margin-top: 100px;	
+}
+
+#main h4 {
+	padding-bottom: 20px;
+	margin-bottom: 20px;	
+	text-align: center;
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+	margin-left: auto;
+	margin-right: auto;
+    border: 1px solid #000000;
+}
+
+.table1 tr th{
+    background: #ffffff;
+    color: rgb(19, 16, 16);
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: #ffffff;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.button {
+	background-color: #14df47;
+	border: none;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.button2 {
+	background-color: #aeaeb4;
+	border: none;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.button3 {
+	background-color: #130fe4;
+	border: none;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
