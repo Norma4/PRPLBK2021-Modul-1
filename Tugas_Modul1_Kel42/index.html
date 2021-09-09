@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pengenalan Javascript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="./script.js"></script>
+        <div id="main">
+            <h4>
+                Angka Kuadrat
+            </h4>
+            <table class="table1">
+                <tr>
+                    <td><input type="text" id="angkaInput" value="" placeholder="input angka"></td>
+                    <td><button class="button" onclick="angkaKuadrat()">Hitung</button></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="angkaHasil" value="" placeholder="hasil" disabled></td>
+                    <td><button class="button2" onclick="angkaReset()">Reset</button></td>
+                </tr>
+            </table>
+            </br>
+            <table class="table1">
+                <tr>
+                    <td><button class="button3" onclick="tampilkanRiwayat()">Lihat Riwayat</button></td>
+                </tr>
+                <tr>
+                    <td><b>Riwayat</b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="angkaRiwayat"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
